@@ -2,12 +2,13 @@ export const workExperience = [
     {
         id: 1,
         image: "/experience/teaching.png",
-        role: "Private Tutor (Part-time)",
+        role: "Frontend Development Mentor",
         duration: "Jun 2023 – Present",
         responsibilities: [
-            "Teaching [HTML, CSS, Typescript, Next.js, Sanity] to high school students",
-            "Simplifying complex topics and improving student performance",
-            "Developing problem-solving and communication skills"
+            "Guiding a student in learning HTML, CSS, JavaScript, Next.js React.js, Sanity",  
+            "Breaking down complex frontend concepts into simple explanations",  
+            "Providing project feedback and debugging assistance",  
+            "Helping with practical implementation (e.g., building UIs, API integration)"
         ]
     },
     {
@@ -16,9 +17,9 @@ export const workExperience = [
         role: "Coding Practice & Problem Solving",
         duration: "Mar 2024 – Present",
         responsibilities: [
-            "Solving DSA problems on LeetCode & HackerRank",
-            "Improving logical thinking and debugging skills",
-            "Learning optimization techniques for efficient code"
+            "Learning HTML, CSS, JavaScript, and React.js through online courses",  
+            "Building projects to apply theoretical knowledge practically",  
+            "Exploring UI/UX principles for better web design"
         ]
     },
        {
