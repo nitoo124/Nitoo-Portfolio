@@ -7,7 +7,7 @@ import { workExperience } from "../../Data/WorkExperience";
 function Experience() {
   return (
     <div id="experience" className="py-20 flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-bold p-3 text-transparent mb-10 bg-clip-text bg-gradient-to-br from-purple-300 to-gray-100">
+      <h2 className="text-5xl font-bold p-3 text-purple-200 mb-10 ">
         Experience
       </h2>
 

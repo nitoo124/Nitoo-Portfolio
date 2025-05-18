@@ -4,7 +4,7 @@ import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
 function Contact() {
     return (
         <section id="contact" className='py-20 px-4 relative flex flex-col justify-center items-center'>
-            <h2 className="text-5xl font-bold p-3 text-transparent mb-10 bg-clip-text bg-gradient-to-br from-purple-300 to-gray-100">
+            <h2 className="text-5xl font-bold p-3 mb-10 text-purple-200">
                 Contact Me
             </h2>
 

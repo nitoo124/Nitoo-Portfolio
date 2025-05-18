@@ -1,6 +1,28 @@
 export const workExperience = [
     {
-        id:1,
+        id: 1,
+        image: "/experience/teaching.png",
+        role: "Private Tutor (Part-time)",
+        duration: "Jun 2023 – Present",
+        responsibilities: [
+            "Teaching [HTML, CSS, Typescript, Next.js, Sanity] to high school students",
+            "Simplifying complex topics and improving student performance",
+            "Developing problem-solving and communication skills"
+        ]
+    },
+    {
+        id: 2,
+        image: "/experience/Self-learning.png",
+        role: "Coding Practice & Problem Solving",
+        duration: "Mar 2024 – Present",
+        responsibilities: [
+            "Solving DSA problems on LeetCode & HackerRank",
+            "Improving logical thinking and debugging skills",
+            "Learning optimization techniques for efficient code"
+        ]
+    },
+       {
+        id: 3,
         image: "/experience/freelancing.png",
         role: "Freelancing Aspirant",
         duration: "Mar 2024 – Present",
@@ -11,18 +33,7 @@ export const workExperience = [
         ]
     },
     {
-          id:2,
-        image: "/experience/Self-learning.png",
-        role: "Self-Taught Frontend Developer",
-        duration: "Jan 2024 – Present",
-        responsibilities: [
-            "Developed multiple frontend projects using HTML, CSS, JavaScript, TypeScript, and Next.js",
-            "Created interactive user interfaces with Tailwind CSS and Framer Motion",
-            "Built a Static and Dynamic Resume Builder and a Food Website with responsive design"
-        ]
-    },
-    {
-          id:3,
+        id: 4,
         image: "/experience/problemSolving.png",
         role: "Problem Solving and Coding Practice",
         duration: "Feb 2024 – Present",
@@ -32,16 +43,6 @@ export const workExperience = [
             "Improved logical reasoning and debugging skills through hands-on practice"
         ]
     },
-    {
-          id:4,
-        image: "/experience/continues-learning.png",
-        role: "Continuous Learning",
-        duration: "Jan 2024 – Present",
-        responsibilities: [
-            "Studied clean code principles and component reusability in frontend development",
-            "Learned state management concepts using React hooks and Next.js App Router",
-            "Explored API integration and asynchronous programming concepts"
-        ]
-    },
+  
 
 ];

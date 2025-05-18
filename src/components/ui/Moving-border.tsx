@@ -16,7 +16,7 @@ export function Button({
   as: Component = "button",
   containerClassName,
   borderClassName,
-  duration = 3000,
+  duration = 5000,
   className,
   ...otherProps
 }: {
@@ -47,7 +47,7 @@ export function Button({
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 bg-[radial-gradient(var(--gradient-color)_40%,transparent_60%)] opacity-[0.8] group-hover:opacity-100 transition-opacity duration-300",
+              "h-20 w-20 bg-[radial-gradient(var(--gradient-color)_40%,transparent_60%)] opacity-[0.8] group-hover:opacity-100 transition-opacity duration-600",
               borderClassName
             )}
             style={{
