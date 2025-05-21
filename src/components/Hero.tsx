@@ -10,25 +10,25 @@ function Hero() {
 
   
     return (
-        <div id='hero' className='pb-20 pt-36 '>
+        <div id='hero' className='pb-20 pt-36 overflow-hidden '>
             {/* Spotlights with better positioning and intensity */}
             <div className="absolute inset-0">
                 {/* Main White Spotlight (strongest) */}
                 <Spotlight
                     className="absolute -top-20 -left-20 h-[120vh] w-[120vw] md:-top-40 md:-left-40"
-                    fill="rgba(255, 255, 255, 0.9)"
+                    fill="white"
                 />
 
                 {/* Purple Spotlight (right side) */}
                 <Spotlight
                     className="absolute top-1/4 -right-10 h-[80vh] w-[60vw] md:-right-20"
-                    fill="rgba(150, 0, 255, 0.7)"
+                    fill="rgba(192, 132, 252, 0.8)"
                 />
 
                 {/* Blue Spotlight (bottom center) */}
                 <Spotlight
                     className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-[60vh] w-[90vw]"
-                    fill="rgba(0, 100, 255, 0.6)"
+                    fill="rgba(96, 165, 250, 0.7)"
                 />
             </div>
 
@@ -57,7 +57,8 @@ function Hero() {
             {/* button */}
          <a href="/resumeOfNitoo.pdf" download={""}>
          <div className=' flex justify-center'>
-           <MagicButton title='Download cv' icon={<MdFileDownload size={27} className='mt-2'/>} />
+           <MagicButton title='Download cv' icon={<MdFileDownload size={27} className='mt-2'
+           />} />
            </div>
          </a>
         </div>

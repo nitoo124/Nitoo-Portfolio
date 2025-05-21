@@ -3,14 +3,14 @@ import { IoMdHeart } from "react-icons/io";
 
 function Footer() {
   return (
-    <footer className="relative border-t border-white/20 bg-gradient-to-b from-purple-900/30 to-black py-12 px-4">
+    <footer className="relative border-t border-white/20 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Main footer content */}
         <div className="grid grid-cols-1 md:flex md:justify-between gap-8 mb-8">
           {/* About section */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-pink-300">
-              Neetu Nagdev
+              Nitoo kumari
             </h3>
             <p className="text-muted-foreground">
               Full Stack Developer creating modern web experiences with cutting-edge technologies.
@@ -25,7 +25,7 @@ function Footer() {
                 href="https://github.com/nitoo124" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-white/5 hover:bg-purple-500/20 transition-colors"
+                className="p-2 rounded-full bg-white/5  transition-colors"
                 aria-label="GitHub"
               >
                 <FaGithub className="text-xl text-muted-foreground hover:text-white transition-colors" />
@@ -47,7 +47,7 @@ function Footer() {
         {/* Copyright section */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground flex items-center">
-            Made with <IoMdHeart className="mx-1 text-pink-500" /> by Neetu Nagdev
+            Made with <IoMdHeart className="mx-1 text-purple-200" /> by Nitoo Kumari
           </p>
           <p className="text-sm text-muted-foreground mt-4 md:mt-0">
             © {new Date().getFullYear()} All Rights Reserved
