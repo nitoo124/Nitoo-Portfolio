@@ -52,7 +52,7 @@ function ProjectsCard() {
             </div>
 
             {/* Buttons */}
-            <div className="flex gap-4 mt-4">
+            <div className="flex md:flex-row flex-col gap-4 mt-4">
               {/* View Demo */}
               <motion.a
                 href={item.DemoURl}
