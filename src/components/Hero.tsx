@@ -56,7 +56,7 @@ function Hero() {
             </div>
 
             {/* button */}
-         <a href="/resumeOfNitoo.pdf" download={""}>
+         <a href="/NitooResume.pdf" download={""}>
          <div className=' flex justify-center'>
            <MagicButton title='Download cv' icon={<MdFileDownload size={27} className='mt-2'
            />} />
