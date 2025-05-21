@@ -9,12 +9,18 @@ function ProjectsCard() {
       {projects.map((item, index) => (
         <motion.div
           key={index}
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: index * 0.2 }}
-          viewport={{ once: true }}
-          className="relative overflow-hidden rounded-xl shadow-2xl border border-transparent bg-gradient-to-br from-gray-900/80 via-gray-900 to-gray-900/90 hover:border-purple-500/30 transition-all duration-500 group hover:shadow-[0_10px_30px_-15px_rgba(192,132,252,0.3)]"
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{
+            duration: 0.7,
+            ease: [0.25, 0.1, 0.25, 1],
+            delay: index * 0.2,
+          }}
+          className="your-classes"
         >
+
+
           {/* Image section */}
           <div className="relative h-60 w-full overflow-hidden">
             <Image
