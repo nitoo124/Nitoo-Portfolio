@@ -50,7 +50,7 @@ function SkillDataProvider({ src, index, name }: IProps) {
       variants={cardVariants}
       animate={inView ? "visible" : "hidden"}
       whileHover={hoverEffect}
-      className="flex flex-col items-center justify-center p-4 rounded-lg bg-purple-200/20 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 m-2"
+      className="flex flex-col items-center justify-center p-4 rounded-lg bg-gradient-to-b from-gray-300/10 to-purple-700/20 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300 m-2"
     >
       <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24">
         <Image

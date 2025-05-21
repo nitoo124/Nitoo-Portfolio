@@ -9,7 +9,8 @@ function Footer() {
         <div className="grid grid-cols-1 md:flex md:justify-between gap-8 mb-8">
           {/* About section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-pink-300">
+            <h3 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r
+       from-purple-300  to-purple-700 mb-10">
               Nitoo kumari
             </h3>
             <p className="text-muted-foreground">
@@ -28,7 +29,7 @@ function Footer() {
                 className="p-2 rounded-full bg-white/5  transition-colors"
                 aria-label="GitHub"
               >
-                <FaGithub className="text-xl text-muted-foreground hover:text-white transition-colors" />
+                <FaGithub className="text-xl text-muted-foreground hover:text-purple-700 transition-colors" />
               </a>
               <a 
                 href="https://x.com/NagdevNeetu?t=yp3vf7UIdA0uWIARiVq3Xw&s=09" 
@@ -37,7 +38,7 @@ function Footer() {
                 className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 transition-colors"
                 aria-label="Twitter"
               >
-                <FaTwitter className="text-xl text-muted-foreground hover:text-white transition-colors" />
+                <FaTwitter className="text-xl text-muted-foreground hover:text-purple-700 transition-colors" />
               </a>
              
             </div>

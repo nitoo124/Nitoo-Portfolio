@@ -16,7 +16,7 @@ export function Button({
   as: Component = "button",
   containerClassName,
   borderClassName,
-  duration = 5000,
+  duration = 6000,
   className,
   ...otherProps
 }: {
@@ -51,7 +51,7 @@ export function Button({
               borderClassName
             )}
             style={{
-              "--gradient-color": "#d8b4fe",
+              "--gradient-color": ["#6B21A8","#A78BFA"],
             } as React.CSSProperties}
           />
         </MovingBorder>
@@ -59,7 +59,7 @@ export function Button({
 
       <div
         className={cn(
-          "relative flex h-full w-full items-center justify-center border border-slate-600 bg-whitw/10 text-sm text-white antialiased backdrop-blur-xl group-hover:bg-slate-900/80 transition-all duration-300",
+          "relative flex h-full w-full items-center justify-center border border-gray-400 bg-whitw/10 text-sm text-white antialiased backdrop-blur-xl group-hover:bg-slate-900/80 transition-all duration-300",
           className
         )}
         style={{

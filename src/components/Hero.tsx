@@ -46,7 +46,8 @@ function Hero() {
 
                 <div className='flex flex-col justify-center gap-3 items-center text-center p-8 '>
                     <TextGenerateEffect
-                        className=' font-bold md:text-5xl bg-clip-text bg-gradient-to-br from-purple-300 to-gray-100  '
+                        className=' font-bold md:text-5xl bg-clip-text text-transparent bg-gradient-to-r
+       from-purple-300  to-purple-700 mb-10  '
                         words=' Welcome To My Portfolio '
                         duration={0.5} />
                     <p className='text-xl'> Passionate and results-driven Front-End Developer with hands-on experience in HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, Framer Motion, ShadCN, and MongoDB. Skilled at building responsive, interactive, and scalable web applications using modern frameworks, database management, and design practices.
