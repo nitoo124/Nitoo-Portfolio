@@ -17,7 +17,7 @@ function ProjectsCard() {
             ease: [0.25, 0.1, 0.25, 1],
             delay: index * 0.2,
           }}
-          className="your-classes"
+          className="  rounded-xl shadow-2xl border border-transparent bg-gradient-to-br from-gray-900/80 via-gray-900 to-gray-900/90 hover:border-purple-500/30 group hover:shadow-[0_10px_30px_-15px_rgba(192,132,252,0.3)"
         >
 
 
