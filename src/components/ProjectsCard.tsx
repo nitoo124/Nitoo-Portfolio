@@ -74,7 +74,7 @@ function ProjectsCard() {
                 href={item.githubUrl}
                 target="_blank"
                 whileHover={{ y: -2 }}
-                className="flex-1 text-center px-4 py-2 rounded-lg bg-white text-gray-900 font-medium shadow-md hover:shadow-lg transition border border-gray-300"
+                className="flex-1 text-center px-4 py-2 rounded-lg bg-gray-200 text-gray-900 font-medium shadow-md hover:shadow-lg transition border border-gray-300"
               >
                 GitHub ↗
               </motion.a>

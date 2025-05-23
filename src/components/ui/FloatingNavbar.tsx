@@ -89,7 +89,7 @@ export const FloatingNav = ({
                 duration={500}
                 offset={-70}
                 onClick={() => setIsOpen(false)}
-                className="cursor-pointer text-sm sm:text-lg font-medium text-white hover:text-purple-700 transition-colors"
+                className="cursor-pointer text-sm sm:text-lg font-medium text-gray-200 hover:text-purple-700 transition-colors"
               >
                 {navItem.name}
               </ScrollLink>

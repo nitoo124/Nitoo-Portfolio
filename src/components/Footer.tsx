@@ -20,7 +20,7 @@ function Footer() {
 
           {/* Social links */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">Connect With Me</h3>
+            <h3 className="text-xl font-semibold text-gray-200">Connect With Me</h3>
             <div className="flex ju space-x-4">
               <a 
                 href="https://github.com/nitoo124" 
@@ -29,7 +29,7 @@ function Footer() {
                 className="p-2 rounded-full bg-white/5  transition-colors"
                 aria-label="GitHub"
               >
-                <FaGithub className="text-xl text-muted-foreground hover:text-purple-700 transition-colors" />
+                <FaGithub className="text-xl text-gray-100 text-muted-foreground hover:text-purple-700 transition-colors" />
               </a>
               <a 
                 href="https://x.com/NagdevNeetu?t=yp3vf7UIdA0uWIARiVq3Xw&s=09" 
@@ -38,7 +38,7 @@ function Footer() {
                 className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 transition-colors"
                 aria-label="Twitter"
               >
-                <FaTwitter className="text-xl text-muted-foreground hover:text-purple-700 transition-colors" />
+                <FaTwitter className="text-xl text-gray-100 text-muted-foreground hover:text-purple-700 transition-colors" />
               </a>
              
             </div>

@@ -18,7 +18,7 @@ function Experience() {
               className="p-6 flex px-10 flex-col justify-start items-start"
             >
               <Icon className="text-5xl text-purple-500 mb-4 self-center" />
-              <h3 className="text-xl font-semibold mb-2 text-left">{item.role}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-left text-gray-200">{item.role}</h3>
               <ul className="text-sm text-gray-400 list-disc pl-5 space-y-1 text-left w-full">
                 {item.responsibilities.map((point, i) => (
                   <li key={i}>{point}</li>
