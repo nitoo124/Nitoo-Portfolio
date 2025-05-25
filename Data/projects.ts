@@ -4,7 +4,7 @@ export const projects = [
     title: "AI Content Generator",
     description:
       "A full-stack AI-powered content generation tool built with Next.js, Tailwind CSS, and Gemini API. Includes authentication via Clerk. Features include template selection, editable AI-generated content, and history tracking.",
-    DemoURl: "https://ai-content-generator-lac.vercel.app/",
+    DemoURl: "https://ai-content-generator-tnoj.vercel.app/",
     githubUrl: "https://github.com/nitoo124/ai-content-generator.git", 
     skills: ["Next.js", "Tailwind CSS", "Gemini API", "Clerk Auth", "TypeScript", "MongoDB"]
   },
